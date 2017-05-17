@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.wlw.EnvironmentTest.com.cn.MainActivity"
+    
+     >
+    <EditText 
+        android:id="@+id/connectEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:inputType="phone"
+        android:hint="请输入服务器IP"/>
+  <!--  <AutoCompleteTextView 
+        android:id="@+id/iphistory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/> --> 
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center_horizontal">
+    	<Button
+	    	android:id="@+id/conctBtn"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_margin="7dp"
+	   	 	android:textSize="18dp"
+	    	android:layout_weight="1"
+	    	android:text="连接"
+	    	android:textColor="#ffffff"
+	    	android:background="@drawable/btnby"
+	/>
+    <Button
+	    	android:id="@+id/closeconctBtn"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_margin="7dp"
+	    	android:textSize="18dp"
+	    	android:layout_weight="1"
+	    	android:text="断开"
+	    	android:textColor="#ffffff"
+	    	android:background="@drawable/btnby"
+	/>
+    </LinearLayout>
+    	<Button
+	   	 	android:id="@+id/TimemonitorBtn"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_margin="5dp"
+	    	android:textSize="18dp"
+	    	android:text="实时环境监测 "
+	    	android:textColor="#ffffff"
+	    	android:background="@drawable/btnby"
+	    	
+		/>
+    	<Button
+	    	android:id="@+id/controlBtn"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_margin="5dp"
+	    	android:textSize="18dp"
+	    	android:text="控制"
+	    	android:textColor="#ffffff"
+	    	android:background="@drawable/btnby"
+	    	
+	    	
+		/>
+  
+</LinearLayout>

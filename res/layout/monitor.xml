@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="5dp"
+     >
+  	<LinearLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="5dp"
+    	android:layout_marginLeft="2dp"
+    	android:layout_marginRight="2dp"
+    	android:gravity="center"
+    	android:background="@drawable/control"
+    	
+  	    >
+  	    <TextView
+	    	android:id="@+id/temperatureTv"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:layout_margin="5dp"
+	    	android:layout_weight="1"
+	    	android:layout_gravity="center"
+	    	android:paddingLeft="20dp"
+	    	android:textSize="18dp"
+	    	android:text="温度: "
+			>
+		</TextView>
+  	    <Spinner 
+  	        android:id="@+id/temperatureSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/list"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+           	android:paddingLeft="40dp"
+            android:layout_alignParentLeft="true"  
+        	android:layout_alignParentTop="true"
+        	android:textAlignment="center" >
+  	      </Spinner>
+  	</LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:background="@drawable/control"
+    	android:layout_marginLeft="2dp"
+    	android:layout_marginRight="2dp"
+  	    >
+   		 <TextView
+	    	android:id="@+id/humidityTv"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:layout_margin="5dp"
+	    	android:layout_weight="1"
+	    	android:layout_gravity="center"
+	    	android:paddingLeft="20dp"
+	    	android:textSize="18dp"
+	    	android:text="湿度: "
+	     	
+	    	>
+   		     
+   		 </TextView>
+
+    	<Spinner 
+  	        android:id="@+id/humiditySpinner"
+             android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/list"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+           	android:paddingLeft="40dp"
+            android:layout_alignParentLeft="true"  
+        	android:layout_alignParentTop="true"
+        	android:textAlignment="center" 
+        	>
+        </Spinner>
+   </LinearLayout> 
+   <LinearLayout 
+       	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:background="@drawable/control"
+    	android:layout_marginLeft="2dp"
+    	android:layout_marginRight="2dp"
+  	    >
+   		 <TextView  
+        	android:id="@+id/lightTv"
+        	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:layout_margin="5dp"
+	    	android:layout_weight="1"
+	    	android:layout_gravity="center"
+	    	android:paddingLeft="20dp"
+	    	android:textSize="18dp"
+        	android:text="光强:"
+         >
+   		     
+   		 </TextView>
+
+    	<Spinner 
+  	        android:id="@+id/lightSpinner"
+  	        android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/list"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:paddingLeft="40dp"
+            android:layout_alignParentLeft="true"  
+        	android:layout_alignParentTop="true"
+        	android:textAlignment="center" >
+  	        <!--  
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:background="@drawable/list"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"  
+        	android:layout_alignParentTop="true"
+        	-->
+            >
+        </Spinner>
+   </LinearLayout> 
+</LinearLayout>
